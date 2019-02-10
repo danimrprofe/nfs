@@ -34,3 +34,11 @@ Editar el archivo /etc/fstab y agregar al final:
 IPdelServidor:/srv/nfs  /mnt/nfs/ nfs rsize=8192,wsize=8192,timeo=14,intr
 ```
 Por último reiniciar el ordenador
+
+## Montar unidad de red en Windows
+Agregar el rol cliente de NFS.
+
+Montar la unidad de red por consola
+```
+mount IPdelServidor:/nombreunidad b:
+```
